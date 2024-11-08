@@ -1,0 +1,14 @@
+{
+  "name": "scoot-project",
+  "version": "0.0.1",
+  "description": "Becode HTML CSS Duo Training project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "SC & MG",
+  "license": "MIT",
+  "dependencies": {
+    "sass": "^1.80.6"
+  }
+}
