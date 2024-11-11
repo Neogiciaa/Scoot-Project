@@ -38,7 +38,7 @@ body {
       }
     }
 
-    .secondary_header_container { @extend %secondary_header_container; }
+    .secondary_header_container_home_page { @extend %secondary_header_container_home_page; }
   }
 }
 

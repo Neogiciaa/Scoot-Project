@@ -35,12 +35,13 @@ body header .first_header_container picture {
 
 body header .first_header_container {
   display: flex;
+  align-items: center;
   width: 1106px;
   height: 96px;
   margin: 0 auto;
 }
 
-body header .secondary_header_container {
+body header .secondary_header_container_home_page {
   display: flex;
   flex-direction: row;
   width: 1440px;
