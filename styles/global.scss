@@ -1,5 +1,3 @@
-@import 'imports';
-
 * {
   box-sizing: border-box;
   margin: 0;
@@ -11,35 +9,8 @@
 body {
   width: 100%;
   height: auto;
-
-  main {
-    background-color: red;
-  }
-
-  header {
-    @extend %header;
-
-    .first_header_container {
-      @extend %first_header_container;
-
-      picture { @extend %header_picture; }
-
-      nav {
-        @extend %navbar;
-
-        ul { @extend %ul; }
-
-        a { @extend %a; }
-
-        button {
-          @extend %normal_button;
-          margin-left: 500px;
-        }
-      }
-    }
-
-    .secondary_header_container_home_page { @extend %secondary_header_container_home_page; }
-  }
 }
 
-
+main {
+  background-color: red;
+}
