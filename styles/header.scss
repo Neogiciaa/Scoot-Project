@@ -1,0 +1,41 @@
+@import 'button';
+@import 'typography';
+
+header {
+  display: flex;
+  width: 100vw;
+
+  picture {
+    width: 6.74rem;
+    height: 1.785rem;
+    margin: auto 0;
+  }
+
+  nav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    width: 80%;
+    max-width: 90rem;
+    height: 6rem;
+
+    ul {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      width: 15.57rem;
+      margin-left: 4.06rem;
+    }
+
+    a {
+      @extend %nav_bar_typography;
+      color: $dim-grey;
+    }
+
+    button {
+      @extend %normal_button;
+      margin-left: 31.25rem;
+    }
+  }
+}
