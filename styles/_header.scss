@@ -12,12 +12,13 @@
 
 %first_header_container {
   display: flex;
+  align-items: center;
   width: 1106px;
   height: 96px;
   margin: 0 auto;
 }
 
-%secondary_header_container {
+%secondary_header_container_home_page {
   display: flex;
   flex-direction: row;
   width: 1440px;
