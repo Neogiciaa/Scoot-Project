@@ -1,6 +1,6 @@
 @import 'colors';
 
-%normal-button {
+%normal_button {
   background-color: $button;
   color: $snow;
   width: 195px;
@@ -8,7 +8,7 @@
   border:none;
 }
 
-%normal-button:hover {
+%normal_button:hover {
   border-color: $button;
   background-color: $snow;
   color: $button;
