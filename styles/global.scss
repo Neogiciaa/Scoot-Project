@@ -1,82 +1,45 @@
-@import 'typography';
-@import 'colors';
-@import 'button';
+@import 'imports';
 
 * {
-    box-sizing: border-box;
-    margin: 0;
-    list-style: none;
-    text-decoration: none;
-    padding: 0;
+  box-sizing: border-box;
+  margin: 0;
+  list-style: none;
+  text-decoration: none;
+  padding: 0;
 }
 
 body {
-    width: 100%;
-    height: auto;
+  width: 100%;
+  height: auto;
 
-    main {
+  main {
+    background-color: red;
+  }
 
+  header {
+    @extend %header;
+
+    .first_header_container {
+      @extend %first_header_container;
+
+      picture { @extend %header_picture; }
+
+      nav {
+        @extend %navbar;
+
+        ul { @extend %ul; }
+
+        a { @extend %a; }
+
+        button {
+          @extend %normal_button;
+          margin-left: 500px;
+        }
+      }
     }
 
-    header {
-        display: flex;
-        flex-direction: column;
-        width: 100vw;
-
-        .first_header_container {
-            display: flex;
-            flex-direction: row;
-            align-content: center;
-            width: 1106px;
-            //margin: 21.5px 167px;
-            background-color: blue;
-            margin: 0 auto;
-
-            picture {
-                width: 107.82px;
-                height: 28.56px;
-                margin-top: 34px;
-            }
-
-            nav {
-                display: flex;
-                flex-direction: row;
-                align-items: center;
-                margin-left: 61px;
-                margin-top: 26px;
-
-                ul {
-                    display: flex;
-                    flex-direction: row;
-                    justify-content: space-between;
-                    align-items: center;
-                    width: 249px;
-                    height: 25px;
-
-                    li {
-
-                        a {
-                            @extend %nav-bar;
-                            color: $dim-grey;
-                        }
-                    }
-                }
-
-            }
-
-            button {
-                @extend %normal-button;
-                //margin-left: 678px;
-                //margin-right: 65px;
-            }
-        }
-
-        .secondary_header_container {
-            margin-top: 500px;
-            display: flex;
-            flex-direction: row;
-        }
-    }
+    .secondary_header_container { @extend %secondary_header_container; }
+  }
 }
 
 
