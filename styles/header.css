@@ -1,0 +1,56 @@
+header nav button {
+  background-color: #FCB72B;
+  color: #F2F5F9;
+  width: 195px;
+  height: 53px;
+  border: none;
+}
+
+header nav button:hover {
+  border-color: #FCB72B;
+  background-color: #F2F5F9;
+  color: #FCB72B;
+  width: 195px;
+  height: 53px;
+}
+
+header nav a {
+  font-family: "Space Mono", monospace;
+  font-size: 15px;
+  line-height: 25px;
+  font-weight: bold;
+}
+
+header {
+  display: flex;
+  width: 100vw;
+}
+header picture {
+  width: 6.74rem;
+  height: 1.785rem;
+  margin: auto 0;
+}
+header nav {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+  width: 80%;
+  max-width: 90rem;
+  height: 6rem;
+}
+header nav ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 15.57rem;
+  margin-left: 4.06rem;
+}
+header nav a {
+  color: #939CAA;
+}
+header nav button {
+  margin-left: 31.25rem;
+}
+
+/*# sourceMappingURL=header.css.map */
