@@ -8,6 +8,7 @@
   width: 100%;
   height: 650px;
   background-image: url('../assets/scooter_background.jpg');
+  background-repeat: no-repeat;
   margin: 0 auto;
 
   h1 {
@@ -21,13 +22,25 @@
   .introduction_container {
     display: flex;
     flex-direction: row;
-    position: relative;
-    margin-top: 20px;
+    margin: 20px 0 auto;
 
-    .flat_arrow {
-      display: flex;
-      position: absolute;
+    .flat-arrow {
+      background-image: url('../assets/flat_arrow.png');
+      width: 200px;
+      height: 10px;
       margin-top: 4%;
+    }
+
+    .left-to-right-arrow {
+      background-image: url('../assets/left-to-right-arrow.svg');
+      width: 446px;
+      margin-top: 5%;
+      right: 0;
+    }
+
+    .three-circles {
+      background-image: url('../assets/three_circles.png');
+      margin-top: 10.5%;
     }
 
     .introduction_summary {
@@ -49,5 +62,4 @@
       }
     }
   }
-
 }
