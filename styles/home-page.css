@@ -34,7 +34,7 @@
   flex-direction: column;
   width: 100%;
   height: 650px;
-  background-image: url("../assets/scooter_background.jpg");
+  background-image: url("../assets/scooter-background.jpg");
   background-repeat: no-repeat;
   margin: 0 auto;
 }
@@ -51,26 +51,33 @@
 }
 .hero-banner .introduction_container .flat-arrow {
   background-image: url("../assets/flat_arrow.png");
+  background-repeat: no-repeat;
   width: 200px;
   height: 10px;
   margin-top: 4%;
 }
 .hero-banner .introduction_container .left-to-right-arrow {
   background-image: url("../assets/left-to-right-arrow.svg");
-  width: 446px;
-  margin-top: 5%;
+  background-repeat: no-repeat;
+  width: 450px;
+  margin-top: 4.3%;
+  margin-left: 35px;
   right: 0;
 }
 .hero-banner .introduction_container .three-circles {
   background-image: url("../assets/three_circles.png");
-  margin-top: 10.5%;
+  background-repeat: no-repeat;
+  width: 184px;
+  height: 62px;
+  margin-top: 9.3%;
+  margin-left: 6.6%;
 }
 .hero-banner .introduction_container .introduction_summary {
   display: flex;
   flex-direction: column;
   justify-content: center;
   width: 400px;
-  margin-left: 260px;
+  margin-left: 65px;
 }
 .hero-banner .introduction_container .introduction_summary p {
   color: white;
