@@ -1,0 +1,17 @@
+@import 'colors';
+
+%normal-button {
+  background-color: $button;
+  color: $snow;
+  width: 195px;
+  height: 53px;
+  border:none;
+}
+
+%normal-button:hover {
+  border-color: $button;
+  background-color: $snow;
+  color: $button;
+  width: 195px;
+  height: 53px;
+}
