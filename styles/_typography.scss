@@ -4,37 +4,37 @@
 $font-space-mono: 'Space Mono', monospace;
 $font-lexend-deca: 'Lexend Deca', sans-serif;
 
-%space_mono_h1 {
+%space-mono-h1 {
   font-size: 56px;
   line-height: 56px;
   letter-spacing: -2.5px;
 }
 
-%space_mono_h2 {
+%space-mono-h2 {
   font-size: 48px;
   line-height: 48px;
   letter-spacing: -2.14px;
 }
 
-%space_mono_h3 {
+%space-mono-h3 {
   font-size: 48px;
   line-height: 48px;
   letter-spacing: -1.79px;
 }
 
-%space_mono_h4 {
+%space-mono-h4 {
   font-size: 24px;
   line-height: 28px;
   letter-spacing: -1.07px;
 }
 
-%space_mono_body {
+%space-mono-body {
   font-family: $font-lexend-deca;
   font-size: 15px;
   line-height: 25px;
 }
 
-%nav_bar_typography {
+%nav-bar-typography {
   font-family: $font-space-mono;
   font-size: 15px;
   line-height: 25px;

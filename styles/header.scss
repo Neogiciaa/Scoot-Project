@@ -3,7 +3,7 @@
 
 header {
   display: flex;
-  width: 100vw;
+  width: 100%;
 
   picture {
     width: 6.74rem;
@@ -29,12 +29,12 @@ header {
     }
 
     a {
-      @extend %nav_bar_typography;
+      @extend %nav-bar-typography;
       color: $dim-grey;
     }
 
     button {
-      @extend %normal_button;
+      @extend %normal-button;
       margin-left: 31.25rem;
     }
   }
