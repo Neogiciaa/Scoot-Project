@@ -40,6 +40,13 @@ $font-lexend-deca: 'Lexend Deca', sans-serif;
   line-height: 25px;
 }
 
+%space-mono-body {
+  font-family: $font-lexend-deca;
+  font-size: 15px;
+  line-height: 25px;
+  font-weight: bold;
+}
+
 %nav-bar-typography {
   font-family: $font-space-mono;
   font-size: 15px;
