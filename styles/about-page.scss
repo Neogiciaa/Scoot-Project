@@ -29,6 +29,7 @@
 
 .digital-era {
   display: flex;
+  align-items: center;
   position: relative;
   width: 80.5rem;
   margin-top: 8rem;
@@ -65,11 +66,12 @@
     position: absolute;
     background-image: url('../assets/digital-era-arrow.svg');
     background-repeat: no-repeat;
-    width: 45.9rem;
-    height: 9.4rem;
+    width: 45rem;
+    height: 9.5rem;
     right: 0;
     bottom: 0;
     z-index: 1;
+    margin-bottom: 37px;
   }
 
   .right-circle-quarter {
