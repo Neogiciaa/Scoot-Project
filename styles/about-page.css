@@ -9,11 +9,37 @@
   letter-spacing: -2.5px;
 }
 
+.digital-era article h2 {
+  font-family: "Space Mono", monospace;
+  font-size: 48px;
+  line-height: 48px;
+  letter-spacing: -2.14px;
+}
+
+.digital-era article p {
+  font-family: "Lexend Deca", sans-serif;
+  font-size: 15px;
+  line-height: 25px;
+}
+
 .hero-banner h1 {
   font-family: "Space Mono", monospace;
   font-size: 56px;
   line-height: 56px;
   letter-spacing: -2.5px;
+}
+
+.digital-era article h2 {
+  font-family: "Space Mono", monospace;
+  font-size: 48px;
+  line-height: 48px;
+  letter-spacing: -2.14px;
+}
+
+.digital-era article p {
+  font-family: "Lexend Deca", sans-serif;
+  font-size: 15px;
+  line-height: 25px;
 }
 
 .hero-banner {
@@ -36,6 +62,54 @@
   width: 15rem;
   height: 3.9rem;
   margin-left: 55.1rem;
+}
+
+.digital-era {
+  display: flex;
+  position: relative;
+  width: 80.5rem;
+  margin-top: 8rem;
+  margin-bottom: 8rem;
+  margin-left: 9.6rem;
+}
+.digital-era article {
+  display: flex;
+  flex-direction: column;
+  width: 27.9rem;
+}
+.digital-era article h2 {
+  margin-top: 4rem;
+  margin-bottom: 1.5rem;
+}
+.digital-era article p {
+  color: #939CAA;
+}
+.digital-era .digital-era-picture {
+  width: 27.9rem;
+  margin-left: 14.3rem;
+}
+.digital-era .digital-era-picture img {
+  border-radius: 50%;
+}
+.digital-era .digital-era-arrow {
+  position: absolute;
+  background-image: url("../assets/digital-era-arrow.svg");
+  background-repeat: no-repeat;
+  width: 45.9rem;
+  height: 9.4rem;
+  right: 0;
+  bottom: 0;
+  z-index: 1;
+}
+.digital-era .right-circle-quarter {
+  background-image: url("../assets/right-circle-quarter.png");
+  background-repeat: no-repeat;
+  width: 5.7rem;
+  height: 28.2rem;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  z-index: 0;
 }
 
 /*# sourceMappingURL=about-page.css.map */
