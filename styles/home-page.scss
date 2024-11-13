@@ -76,7 +76,6 @@
 .getting-started {
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
   width: 100%;
   margin-top: 9.3%;
 }
@@ -109,9 +108,7 @@
 
 .articles-container {
   display: flex;
-  gap: 20px;
-  margin-bottom: 15rem;
-  margin-left: 8.5rem;
+  margin-bottom: 13rem;
 
   article {
     h2 {
@@ -125,7 +122,71 @@
       color: $dim-grey;
     }
   }
+
+  .first-article {
+    margin-left: 9.8rem;
+  }
+
+  .article {
+    margin-left: 2.5rem;
+  }
 }
 
+.telemetry {
+  display: flex;
+  position: relative;
+  width: 79.7rem;
+  margin-bottom: 31.25rem;
+  margin-left: 9.6rem;
+
+  article {
+    display: flex;
+    flex-direction: column;
+    width: 445px;
+
+    h2 {
+      @extend %space-mono-h2;
+      margin-top: 4rem;
+      margin-bottom: 1.5rem;
+    }
+
+    p {
+      @extend %lexend-deca-body;
+      color: $dim-grey;
+    }
+
+    button {
+      @extend %normal-button;
+      margin-top: 2.5rem;
+    }
+  }
+
+  .right-to-left-arrow {
+    position: absolute;
+    background-image: url('../assets/right-to-left-arrow.svg');
+    background-repeat: no-repeat;
+    width: 733px;
+    height: 150px;
+    right: 0;
+    bottom: 0;
+    z-index: 1;
+  }
+
+  .right-circle-quarter {
+    background-image: url('../assets/right-circle-quarter.png');
+    background-repeat: no-repeat;
+    width: 91px;
+    height: 450px;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    z-index: 0;
+  }
+}
+
+.telemetry-picture {
+  width: 27.9rem;
+  margin-left: 14.3rem;
+}
 
 

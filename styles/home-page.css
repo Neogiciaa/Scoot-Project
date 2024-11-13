@@ -7,6 +7,13 @@
   letter-spacing: -2.5px;
 }
 
+.telemetry article h2 {
+  font-family: "Space Mono", monospace;
+  font-size: 48px;
+  line-height: 48px;
+  letter-spacing: -2.14px;
+}
+
 .articles-container article h2 {
   font-family: "Space Mono", monospace;
   font-size: 24px;
@@ -14,13 +21,13 @@
   letter-spacing: -1.07px;
 }
 
-.articles-container article p, .hero-banner .introduction-summary p {
+.telemetry article p, .articles-container article p, .hero-banner .introduction-summary p {
   font-family: "Lexend Deca", sans-serif;
   font-size: 15px;
   line-height: 25px;
 }
 
-.hero-banner .introduction-summary button {
+.telemetry article button, .hero-banner .introduction-summary button {
   background-color: #FCB72B;
   color: #F2F5F9;
   width: 195px;
@@ -28,7 +35,7 @@
   border: none;
 }
 
-.hero-banner .introduction-summary button:hover {
+.telemetry article button:hover, .hero-banner .introduction-summary button:hover {
   border-color: #FCB72B;
   background-color: #F2F5F9;
   color: #FCB72B;
@@ -98,7 +105,6 @@
 .getting-started {
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
   width: 100%;
   margin-top: 9.3%;
 }
@@ -130,14 +136,66 @@
 
 .articles-container {
   display: flex;
-  gap: 20px;
-  margin-bottom: 15rem;
-  margin-left: 8.5rem;
+  margin-bottom: 13rem;
 }
 .articles-container article p {
   margin-top: 1.5rem;
   width: 22rem;
   color: #939CAA;
+}
+.articles-container .first-article {
+  margin-left: 9.8rem;
+}
+.articles-container .article {
+  margin-left: 2.5rem;
+}
+
+.telemetry {
+  display: flex;
+  position: relative;
+  width: 79.7rem;
+  margin-bottom: 31.25rem;
+  margin-left: 9.6rem;
+}
+.telemetry article {
+  display: flex;
+  flex-direction: column;
+  width: 445px;
+}
+.telemetry article h2 {
+  margin-top: 4rem;
+  margin-bottom: 1.5rem;
+}
+.telemetry article p {
+  color: #939CAA;
+}
+.telemetry article button {
+  margin-top: 2.5rem;
+}
+.telemetry .right-to-left-arrow {
+  position: absolute;
+  background-image: url("../assets/right-to-left-arrow.svg");
+  background-repeat: no-repeat;
+  width: 733px;
+  height: 150px;
+  right: 0;
+  bottom: 0;
+  z-index: 1;
+}
+.telemetry .right-circle-quarter {
+  background-image: url("../assets/right-circle-quarter.png");
+  background-repeat: no-repeat;
+  width: 91px;
+  height: 450px;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  z-index: 0;
+}
+
+.telemetry-picture {
+  width: 27.9rem;
+  margin-left: 14.3rem;
 }
 
 /*# sourceMappingURL=home-page.css.map */
