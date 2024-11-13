@@ -1,47 +1,131 @@
 @import url("https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&display=swap");
-footer .top_footer .top_footer_title h2 {
+footer .top-footer .top-footer-title h2 {
   font-size: 48px;
   line-height: 48px;
   letter-spacing: -2.14px;
 }
 
+footer .bottom-footer .pages-navbar ul li a {
+  font-family: "Space Mono", monospace;
+  font-size: 15px;
+  line-height: 25px;
+  font-weight: bold;
+}
+
 footer {
   display: flex;
-  width: 100vw;
   flex-direction: column;
+  width: 100vw;
 }
-footer .top_footer {
+footer .top-footer {
   display: flex;
-  flex-direction: row;
-  width: 1455px;
-  height: 300px;
-  background-image: url(../assets/top_footer_background.svg);
+  width: 100vw;
+  height: 18.75rem;
+  background-image: url(../assets/top-footer-background.jpg);
   background-size: cover;
   background-position: center;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
+  padding: 0 9.96rem 0 12rem;
 }
-footer .top_footer .top_footer_title {
-  width: 415px;
-  height: 96px;
+footer .top-footer .top-footer-title {
+  width: 25.9rem;
+  height: 6rem;
 }
-footer .top_footer .top_footer_title h2 {
+footer .top-footer .top-footer-title h2 {
   color: #F2F5F9;
   font-family: "Space Mono", monospace;
 }
-footer .top_footer .top_footer_buttons {
-  width: 359px;
-  height: 56px;
+footer .top-footer .store-buttons-container {
+  width: 22.4rem;
   display: flex;
   justify-content: space-between;
 }
-footer .top_footer .top_footer_buttons .btn_apple {
-  width: 159px;
-  height: 56px;
+footer .top-footer .store-buttons-container .top-footer-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #E5ECF4;
+  width: 9.9rem;
+  height: 3.5rem;
+  border-radius: 0.3rem;
+  gap: 0.5rem;
 }
-footer .top_footer .top_footer_buttons .btn_google_play {
-  width: 182px;
-  height: 56px;
+footer .top-footer .store-buttons-container .top-footer-button img {
+  width: 1.5rem;
+  height: auto;
+}
+footer .top-footer .store-buttons-container .top-footer-button .store-button-text {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+footer .top-footer .store-buttons-container .top-footer-button .store-button-text .store-button-first-line-text {
+  font-family: "Space Mono", monospace;
+  font-size: 0.6rem;
+  font-weight: bold;
+  color: #495567;
+  margin: 0;
+}
+footer .top-footer .store-buttons-container .top-footer-button .store-button-text .store-button-second-line-text {
+  font-family: "Space Mono", monospace;
+  font-size: 1.25rem;
+  font-weight: bold;
+  color: #495567;
+  margin: 0;
+}
+footer .top-footer .store-buttons-container .top-footer-button.apple-button {
+  width: 10rem;
+}
+footer .top-footer .store-buttons-container .top-footer-button.apple-button .store-button-text .store-button-first-line-text {
+  font-size: 0.6rem;
+}
+footer .top-footer .store-buttons-container .top-footer-button.apple-button .store-button-text .store-button-second-line-text {
+  font-size: 1.25rem;
+}
+footer .top-footer .store-buttons-container .top-footer-button.google-button {
+  width: 11.3rem;
+}
+footer .top-footer .store-buttons-container .top-footer-button.google-button .store-button-text .store-button-first-line-text {
+  font-size: 0.65rem;
+}
+footer .top-footer .store-buttons-container .top-footer-button.google-button .store-button-text .store-button-second-line-text {
+  font-size: 1.2rem;
+}
+footer .bottom-footer {
+  display: flex;
+  flex-direction: row;
+  width: 100vw;
+  height: 6rem;
+  background-color: #333A44;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 9.96rem 0 12rem;
+}
+footer .bottom-footer .pages-navbar {
+  display: flex;
+  flex-direction: row;
+  width: 26rem;
+  height: 1.8rem;
+  gap: 3.7rem;
+}
+footer .bottom-footer .pages-navbar ul {
+  display: flex;
+  width: 16rem;
+  align-items: center;
+  gap: 2rem;
+}
+footer .bottom-footer .pages-navbar ul li a {
+  color: #939CAA;
+}
+footer .bottom-footer .social-media-navbar {
+  display: flex;
+}
+footer .bottom-footer .social-media-navbar ul {
+  display: flex;
+  width: 7.5rem;
+  align-items: center;
+  gap: 1.5rem;
 }
 
 /*# sourceMappingURL=footer.css.map */
