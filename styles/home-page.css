@@ -1,5 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@400;700&display=swap");
 .hero-banner h1 {
   font-family: "Space Mono", monospace;
   font-size: 56px;
@@ -26,6 +28,48 @@
   font-family: "Lexend Deca", sans-serif;
   font-size: 15px;
   line-height: 25px;
+}
+
+.payments article button:hover, .nearest-cities article button:hover, .telemetry article button:hover, .hero-banner .introduction-summary button:hover {
+  font-family: "Lexend Deca", sans-serif;
+  font-size: 15px;
+  line-height: 25px;
+  font-weight: bold;
+}
+
+.hero-banner h1 {
+  font-family: "Space Mono", monospace;
+  font-size: 56px;
+  line-height: 56px;
+  letter-spacing: -2.5px;
+}
+
+.payments article h2, .nearest-cities article h2, .telemetry article h2 {
+  font-family: "Space Mono", monospace;
+  font-size: 48px;
+  line-height: 48px;
+  letter-spacing: -2.14px;
+}
+
+.articles-container article h2 {
+  font-family: "Space Mono", monospace;
+  font-size: 24px;
+  line-height: 28px;
+  letter-spacing: -1.07px;
+  font-family: "Space Mono", monospace;
+}
+
+.payments article p, .nearest-cities article p, .telemetry article p, .articles-container article p, .hero-banner .introduction-summary p {
+  font-family: "Lexend Deca", sans-serif;
+  font-size: 15px;
+  line-height: 25px;
+}
+
+.payments article button:hover, .nearest-cities article button:hover, .telemetry article button:hover, .hero-banner .introduction-summary button:hover {
+  font-family: "Lexend Deca", sans-serif;
+  font-size: 15px;
+  line-height: 25px;
+  font-weight: bold;
 }
 
 .payments article button, .nearest-cities article button, .telemetry article button, .hero-banner .introduction-summary button {
