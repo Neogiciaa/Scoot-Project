@@ -52,35 +52,41 @@
 </main>
 
 <footer>
-    <div class="top_footer">
-        <div>
+    <div class="top-footer">
+        <div class="top-footer-title">
             <h2>Sign up and scoot off today</h2>
         </div>
-        <div>
-            <button class="btn_apple">
-                <picture>
-                    <img src="../assets/app_store_btn.png" alt="appstore_button">
-                </picture>
-            </button>
-            <button class="btn_google_play">
-                <picture>
-                    <img src="../assets/google_play_btn.png" alt="google_play_button">
-                </picture>
-            </button>
+        <div class="store-buttons-container">
+            <a class="top-footer-button apple-button" href="https://www.apple.com/be-fr/store">
+                <img src="../assets/apple-logo.svg" alt="apple-logo">
+                <div class="store-button-text">
+                    <p class="store-button-first-line-text">Available on the</p>
+                    <p class="store-button-second-line-text">AppStore</p>
+                </div>
+            </a>
+            <a class="top-footer-button google-button" href="https://play.google.com/store/games?hl=en_US">
+                <img src="../assets/google-play-logo.svg" alt="google-play-logo">
+                <div class="store-button-text">
+                    <p class="store-button-first-line-text">Get it on</p>
+                    <p class="store-button-second-line-text">GooglePlay</p>
+                </div>
+            </a>
         </div>
     </div>
-    <div class="bottom_footer">
-        <picture>
-            <img src="../assets/logo_white.png" alt="white_logo">
-        </picture>
-        <nav>
+    <div class="bottom-footer">
+        <nav class="pages-navbar">
+            <a href="home.html" title="scoot">
+                <picture>
+                    <img src="../assets/logo-white.svg" alt="white_scoot_logo">
+                </picture>
+            </a>
             <ul>
                 <li>
                     <a href="about.html">About</a>
                 </li>
 
                 <li>
-                    <a href="#">Location</a>
+                    <a href="location.html">Location</a>
                 </li>
 
                 <li>
@@ -88,9 +94,31 @@
                 </li>
             </ul>
         </nav>
-        <picture>
-            <img src="../assets/social_media_btns.png" alt="social_media_buttons">
-        </picture>
+        <nav class="social-media-navbar">
+            <ul>
+                <li>
+                    <a href="https://www.facebook.com/" title="facebook">
+                        <picture>
+                            <img src="../assets/facebook-logo.svg" alt="facebook_logo_button">
+                        </picture>
+                    </a>
+                </li>
+                <li>
+                    <a href="https://x.com/" title="x">
+                        <picture>
+                            <img src="../assets/x-logo.svg" alt="x_logo_button">
+                        </picture>
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.instagram.com/" title="instagram">
+                        <picture>
+                            <img src="../assets/instagram-logo.svg" alt="instagram_logo_button">
+                        </picture>
+                    </a>
+                </li>
+            </ul>
+        </nav>
     </div>
 </footer>
 </body>
