@@ -1,5 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@400;700&display=swap");
 .join-us h2, .hero-banner h1 {
   font-family: "Space Mono", monospace;
   font-size: 56px;
@@ -14,7 +16,7 @@
   letter-spacing: -2.14px;
 }
 
-.join-us .articles-container .article h3, .join-us .articles-container .article .article-number {
+.jobs ul .article-infos h4, .join-us .articles-container .article h3, .join-us .articles-container .article .article-number {
   font-family: "Space Mono", monospace;
   font-size: 24px;
   line-height: 28px;
@@ -22,13 +24,55 @@
   font-family: "Space Mono", monospace;
 }
 
-.join-us .articles-container .article p, .mission article p {
+.jobs ul .article-infos p, .join-us .articles-container .article p, .mission article p {
   font-family: "Lexend Deca", sans-serif;
   font-size: 15px;
   line-height: 25px;
 }
 
-.mission article button {
+.jobs ul button:hover, .mission article button:hover {
+  font-family: "Lexend Deca", sans-serif;
+  font-size: 15px;
+  line-height: 25px;
+  font-weight: bold;
+}
+
+.join-us h2, .hero-banner h1 {
+  font-family: "Space Mono", monospace;
+  font-size: 56px;
+  line-height: 56px;
+  letter-spacing: -2.5px;
+}
+
+.mission article h2 {
+  font-family: "Space Mono", monospace;
+  font-size: 48px;
+  line-height: 48px;
+  letter-spacing: -2.14px;
+}
+
+.jobs ul .article-infos h4, .join-us .articles-container .article h3, .join-us .articles-container .article .article-number {
+  font-family: "Space Mono", monospace;
+  font-size: 24px;
+  line-height: 28px;
+  letter-spacing: -1.07px;
+  font-family: "Space Mono", monospace;
+}
+
+.jobs ul .article-infos p, .join-us .articles-container .article p, .mission article p {
+  font-family: "Lexend Deca", sans-serif;
+  font-size: 15px;
+  line-height: 25px;
+}
+
+.jobs ul button:hover, .mission article button:hover {
+  font-family: "Lexend Deca", sans-serif;
+  font-size: 15px;
+  line-height: 25px;
+  font-weight: bold;
+}
+
+.jobs ul button, .mission article button {
   background-color: #FCB72B;
   color: #F2F5F9;
   width: 195px;
@@ -36,7 +80,7 @@
   border: none;
 }
 
-.mission article button:hover {
+.jobs ul button:hover, .mission article button:hover {
   border-color: #FCB72B;
   background-color: #F2F5F9;
   color: #FCB72B;
@@ -71,7 +115,7 @@
   position: relative;
   width: 80.5rem;
   margin-top: 8rem;
-  margin-bottom: 13rem;
+  margin-bottom: 8rem;
   margin-left: 9.6rem;
 }
 .mission article {
@@ -154,6 +198,45 @@
 }
 .join-us .articles-container .article h3 {
   margin: 2rem 0;
+}
+.join-us .articles-container .article p {
+  color: #939CAA;
+}
+
+.jobs {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin-bottom: 13rem;
+}
+.jobs ul {
+  display: flex;
+  flex-direction: column;
+}
+.jobs ul article {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: 128px;
+  background: #F2F5F9;
+  margin-top: 25px;
+}
+.jobs ul .article-infos {
+  display: flex;
+  flex-direction: column;
+  width: 350px;
+  height: 28px;
+  margin-top: 35px;
+  margin-bottom: 1rem;
+  margin-left: 3rem;
+}
+.jobs ul .article-infos h4 {
+  width: 100%;
+}
+.jobs ul button {
+  margin-left: auto;
+  margin-right: 4rem;
+  margin-top: 2.3rem;
 }
 
 /*# sourceMappingURL=careers-page.css.map */
