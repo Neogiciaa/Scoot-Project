@@ -2,41 +2,69 @@
 @import url("https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@400;700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@400;700&display=swap");
-.hero-banner h1 {
+.faq h2, .our-values h2, .hero-banner h1 {
   font-family: "Space Mono", monospace;
   font-size: 56px;
   line-height: 56px;
   letter-spacing: -2.5px;
 }
 
-.digital-era article h2 {
+.urban-living article h2, .digital-era article h2 {
   font-family: "Space Mono", monospace;
   font-size: 48px;
   line-height: 48px;
   letter-spacing: -2.14px;
 }
 
-.digital-era article p {
+.faq .faq-second-part h3, .faq .faq-first-part h3 {
+  font-family: "Space Mono", monospace;
+  font-size: 40px;
+  line-height: 40px;
+  letter-spacing: -1.79px;
+}
+
+.faq .faq-second-part ul li summary, .faq .faq-first-part ul li summary, .our-values .articles-container .article h3, .our-values .articles-container .article .article-number {
+  font-family: "Space Mono", monospace;
+  font-size: 24px;
+  line-height: 28px;
+  letter-spacing: -1.07px;
+}
+
+.our-values .articles-container .article p, .urban-living article p, .digital-era article p {
   font-family: "Lexend Deca", sans-serif;
   font-size: 15px;
   line-height: 25px;
 }
 
-.hero-banner h1 {
+.faq h2, .our-values h2, .hero-banner h1 {
   font-family: "Space Mono", monospace;
   font-size: 56px;
   line-height: 56px;
   letter-spacing: -2.5px;
 }
 
-.digital-era article h2 {
+.urban-living article h2, .digital-era article h2 {
   font-family: "Space Mono", monospace;
   font-size: 48px;
   line-height: 48px;
   letter-spacing: -2.14px;
 }
 
-.digital-era article p {
+.faq .faq-second-part h3, .faq .faq-first-part h3 {
+  font-family: "Space Mono", monospace;
+  font-size: 40px;
+  line-height: 40px;
+  letter-spacing: -1.79px;
+}
+
+.faq .faq-second-part ul li summary, .faq .faq-first-part ul li summary, .our-values .articles-container .article h3, .our-values .articles-container .article .article-number {
+  font-family: "Space Mono", monospace;
+  font-size: 24px;
+  line-height: 28px;
+  letter-spacing: -1.07px;
+}
+
+.our-values .articles-container .article p, .urban-living article p, .digital-era article p {
   font-family: "Lexend Deca", sans-serif;
   font-size: 15px;
   line-height: 25px;
@@ -112,6 +140,172 @@
   right: 0;
   bottom: 0;
   z-index: 0;
+}
+
+.urban-living {
+  display: flex;
+  position: relative;
+  width: 89.2rem;
+  margin-bottom: 13rem;
+}
+.urban-living article {
+  display: flex;
+  flex-direction: column;
+  width: 27.9rem;
+  margin-left: 13.2rem;
+}
+.urban-living article h2 {
+  margin-top: 4rem;
+  margin-bottom: 1.5rem;
+}
+.urban-living article p {
+  color: #939CAA;
+}
+.urban-living .urban-living-picture {
+  width: 27.9rem;
+  margin-left: 165px;
+}
+.urban-living .left-to-right-small-arrow {
+  position: absolute;
+  background-image: url("../assets/left-to-right-small-arrow.png");
+  background-repeat: no-repeat;
+  width: 45.9rem;
+  height: 9.4rem;
+  left: 0;
+  top: 0;
+}
+.urban-living .left-circle-quarter {
+  background-image: url("../assets/left-circle-quarter.png");
+  background-repeat: no-repeat;
+  width: 6.25rem;
+  height: 28.2rem;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+.our-values {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  width: 68.8rem;
+  margin-bottom: 13rem;
+  margin-left: 9.6rem;
+}
+.our-values h2 {
+  margin-left: 10.4rem;
+  width: 27rem;
+}
+.our-values .articles-container {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  margin-top: 3rem;
+  gap: 5rem;
+}
+.our-values .articles-container .article {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.our-values .articles-container .article .article-number {
+  background-color: #FCB72B;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 6rem;
+  height: 6rem;
+  border-radius: 50%;
+  margin-top: -6.25rem;
+}
+.our-values .articles-container .article h3 {
+  margin: 2rem 0;
+}
+.our-values .articles-container .article p {
+  color: #939CAA;
+}
+
+.faq {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  background: #f8f8f8;
+}
+.faq .faq-first-part {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 100%;
+  margin-top: 5rem;
+  margin-bottom: 20rem;
+  background: red;
+}
+.faq .faq-first-part h3 {
+  width: 450px;
+  margin-bottom: 2rem;
+  background: yellowgreen;
+}
+.faq .faq-first-part ul {
+  display: flex;
+  flex-direction: column;
+  background: green;
+}
+.faq .faq-first-part ul li {
+  display: flex;
+}
+.faq .faq-first-part ul li details {
+  width: 600px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 1rem;
+  background-color: #939CAA;
+}
+.faq .faq-first-part ul li summary {
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.5rem;
+  color: #FCB72B;
+  font-weight: bold;
+  list-style: none;
+}
+.faq .faq-second-part {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 100%;
+  margin-bottom: 20rem;
+}
+.faq .faq-second-part h3 {
+  width: 450px;
+  margin-bottom: 2rem;
+}
+.faq .faq-second-part ul {
+  display: flex;
+  width: 80%;
+}
+.faq .faq-second-part ul li {
+  display: flex;
+}
+.faq .faq-second-part ul li details {
+  width: 600px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 1rem;
+  background-color: #939CAA;
+}
+.faq .faq-second-part ul li summary {
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.5rem;
+  color: #FCB72B;
+  font-weight: bold;
+  list-style: none;
 }
 
 /*# sourceMappingURL=about-page.css.map */
