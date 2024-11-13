@@ -1,10 +1,47 @@
 @import url("https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@400;700&display=swap");
-.hero-banner h1 {
+.join-us h2, .hero-banner h1 {
   font-family: "Space Mono", monospace;
   font-size: 56px;
   line-height: 56px;
   letter-spacing: -2.5px;
+}
+
+.mission article h2 {
+  font-family: "Space Mono", monospace;
+  font-size: 48px;
+  line-height: 48px;
+  letter-spacing: -2.14px;
+}
+
+.join-us .articles-container .article h3, .join-us .articles-container .article .article-number {
+  font-family: "Space Mono", monospace;
+  font-size: 24px;
+  line-height: 28px;
+  letter-spacing: -1.07px;
+  font-family: "Space Mono", monospace;
+}
+
+.join-us .articles-container .article p, .mission article p {
+  font-family: "Lexend Deca", sans-serif;
+  font-size: 15px;
+  line-height: 25px;
+}
+
+.mission article button {
+  background-color: #FCB72B;
+  color: #F2F5F9;
+  width: 195px;
+  height: 53px;
+  border: none;
+}
+
+.mission article button:hover {
+  border-color: #FCB72B;
+  background-color: #F2F5F9;
+  color: #FCB72B;
+  width: 195px;
+  height: 53px;
 }
 
 .hero-banner {
@@ -27,6 +64,96 @@
   width: 15rem;
   height: 3.9rem;
   margin-left: 53.1rem;
+}
+
+.mission {
+  display: flex;
+  position: relative;
+  width: 80.5rem;
+  margin-top: 8rem;
+  margin-bottom: 13rem;
+  margin-left: 9.6rem;
+}
+.mission article {
+  display: flex;
+  flex-direction: column;
+  width: 27.9rem;
+}
+.mission article h2 {
+  margin-top: 4rem;
+  margin-bottom: 1.5rem;
+}
+.mission article p {
+  color: #939CAA;
+}
+.mission article button {
+  margin-top: 2.5rem;
+}
+.mission .mission-picture {
+  width: 27.9rem;
+  margin-left: 14.3rem;
+}
+.mission .mission-picture img {
+  border-radius: 50%;
+}
+.mission .right-to-left-arrow {
+  position: absolute;
+  background-image: url("../assets/right-to-left-arrow.svg");
+  background-repeat: no-repeat;
+  width: 45.9rem;
+  height: 9.4rem;
+  right: 0;
+  bottom: 0;
+  z-index: 1;
+}
+.mission .right-circle-quarter {
+  background-image: url("../assets/right-circle-quarter.png");
+  background-repeat: no-repeat;
+  width: 5.7rem;
+  height: 28.2rem;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  z-index: 0;
+}
+
+.join-us {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  width: 68.8rem;
+  margin-bottom: 13rem;
+  margin-left: 9.6rem;
+}
+.join-us h2 {
+  margin-left: 10.4rem;
+  width: 27rem;
+}
+.join-us .articles-container {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  margin-top: 3rem;
+  gap: 5rem;
+}
+.join-us .articles-container .article {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.join-us .articles-container .article .article-number {
+  background-color: #FCB72B;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 6rem;
+  height: 6rem;
+  border-radius: 50%;
+  margin-top: -6.25rem;
+}
+.join-us .articles-container .article h3 {
+  margin: 2rem 0;
 }
 
 /*# sourceMappingURL=careers-page.css.map */
