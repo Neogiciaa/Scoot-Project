@@ -1,5 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@400;700&display=swap");
 .location-hero-banner h1 {
   font-family: "Space Mono", monospace;
   font-size: 56px;
@@ -20,6 +22,40 @@
   line-height: 25px;
 }
 
+.not-listed .message-us:hover {
+  font-family: "Lexend Deca", sans-serif;
+  font-size: 15px;
+  line-height: 25px;
+  font-weight: bold;
+}
+
+.location-hero-banner h1 {
+  font-family: "Space Mono", monospace;
+  font-size: 56px;
+  line-height: 56px;
+  letter-spacing: -2.5px;
+}
+
+.not-listed h2 {
+  font-family: "Space Mono", monospace;
+  font-size: 48px;
+  line-height: 48px;
+  letter-spacing: -2.14px;
+}
+
+.not-listed p {
+  font-family: "Lexend Deca", sans-serif;
+  font-size: 15px;
+  line-height: 25px;
+}
+
+.not-listed .message-us:hover {
+  font-family: "Lexend Deca", sans-serif;
+  font-size: 15px;
+  line-height: 25px;
+  font-weight: bold;
+}
+
 .not-listed .message-us {
   background-color: #FCB72B;
   color: #F2F5F9;
@@ -29,6 +65,7 @@
 }
 
 .not-listed .message-us:hover {
+  border-color: #FCB72B;
   border: 2px solid #FCB72B;
   color: #FCB72B;
   background-color: #F2F5F9;
