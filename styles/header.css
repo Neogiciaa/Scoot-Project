@@ -1,4 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@400;700&display=swap");
+
 header nav button {
   background-color: #FCB72B;
   color: #F2F5F9;
@@ -34,11 +36,20 @@ header picture {
 header nav {
   display: flex;
   align-items: center;
-  justify-content: center;
   margin: 0 auto;
   width: 80%;
   max-width: 90rem;
   height: 6rem;
+}
+@media (min-width: 0) {
+  header nav {
+    width: 90%;
+  }
+}
+@media (max-width: 889px) {
+  header nav {
+    width: 80%;
+  }
 }
 header nav ul {
   display: flex;
@@ -51,7 +62,7 @@ header nav a {
   color: #939CAA;
 }
 header nav button {
-  margin-left: 31.25rem;
+  margin-left: auto;
 }
 
 /*# sourceMappingURL=header.css.map */
