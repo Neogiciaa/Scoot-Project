@@ -1,4 +1,5 @@
 @import 'colors';
+@import 'typography';
 
 %normal-button {
   background-color: $button;
@@ -9,6 +10,8 @@
 }
 
 %normal-button:hover {
+  @extend %space-mono-body;
+  border-color: $button;
   border: 2px solid $button;
   color: $button;
   background-color: $snow;

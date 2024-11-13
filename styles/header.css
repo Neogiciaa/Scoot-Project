@@ -1,5 +1,21 @@
 @import url("https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@400;700&display=swap");
+header nav button:hover {
+  font-family: "Lexend Deca", sans-serif;
+  font-size: 15px;
+  line-height: 25px;
+  font-weight: bold;
+}
+
+header nav a {
+  font-family: "Space Mono", monospace;
+  font-size: 15px;
+  line-height: 25px;
+  font-weight: bold;
+}
+
 header nav button {
   background-color: #FCB72B;
   color: #F2F5F9;
@@ -14,6 +30,13 @@ header nav button:hover {
   background-color: #F2F5F9;
   width: 195px;
   height: 53px;
+}
+
+header nav button:hover {
+  font-family: "Lexend Deca", sans-serif;
+  font-size: 15px;
+  line-height: 25px;
+  font-weight: bold;
 }
 
 header nav a {
