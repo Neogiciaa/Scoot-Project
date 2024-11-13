@@ -7,7 +7,7 @@
   letter-spacing: -2.5px;
 }
 
-.telemetry article h2 {
+.nearest-cities article h2, .telemetry article h2 {
   font-family: "Space Mono", monospace;
   font-size: 48px;
   line-height: 48px;
@@ -21,13 +21,13 @@
   letter-spacing: -1.07px;
 }
 
-.telemetry article p, .articles-container article p, .hero-banner .introduction-summary p {
+.nearest-cities article p, .telemetry article p, .articles-container article p, .hero-banner .introduction-summary p {
   font-family: "Lexend Deca", sans-serif;
   font-size: 15px;
   line-height: 25px;
 }
 
-.telemetry article button, .hero-banner .introduction-summary button {
+.nearest-cities article button, .telemetry article button, .hero-banner .introduction-summary button {
   background-color: #FCB72B;
   color: #F2F5F9;
   width: 195px;
@@ -35,7 +35,7 @@
   border: none;
 }
 
-.telemetry article button:hover, .hero-banner .introduction-summary button:hover {
+.nearest-cities article button:hover, .telemetry article button:hover, .hero-banner .introduction-summary button:hover {
   border-color: #FCB72B;
   background-color: #F2F5F9;
   color: #FCB72B;
@@ -154,7 +154,7 @@
   display: flex;
   position: relative;
   width: 79.7rem;
-  margin-bottom: 31.25rem;
+  margin-bottom: 13rem;
   margin-left: 9.6rem;
 }
 .telemetry article {
@@ -171,6 +171,10 @@
 }
 .telemetry article button {
   margin-top: 2.5rem;
+}
+.telemetry .telemetry-picture {
+  width: 27.9rem;
+  margin-left: 14.3rem;
 }
 .telemetry .right-to-left-arrow {
   position: absolute;
@@ -193,9 +197,49 @@
   z-index: 0;
 }
 
-.telemetry-picture {
+.nearest-cities {
+  display: flex;
+  position: relative;
+  width: 89.2rem;
+  margin-bottom: 31.25rem;
+}
+.nearest-cities article {
+  display: flex;
+  flex-direction: column;
+  width: 445px;
+  margin-left: 210px;
+}
+.nearest-cities article h2 {
+  margin-top: 4rem;
+  margin-bottom: 1.5rem;
+}
+.nearest-cities article p {
+  color: #939CAA;
+}
+.nearest-cities article button {
+  margin-top: 2.5rem;
+}
+.nearest-cities .nearest-cities-picture {
   width: 27.9rem;
-  margin-left: 14.3rem;
+  margin-left: 165px;
+}
+.nearest-cities .left-to-right-small-arrow {
+  position: absolute;
+  background-image: url("../assets/left-to-right-small-arrow.png");
+  background-repeat: no-repeat;
+  width: 733px;
+  height: 150px;
+  left: 0;
+  top: 0;
+}
+.nearest-cities .left-circle-quarter {
+  background-image: url("../assets/left-circle-quarter.png");
+  background-repeat: no-repeat;
+  width: 100px;
+  height: 450px;
+  position: absolute;
+  left: 0;
+  top: 0;
 }
 
 /*# sourceMappingURL=home-page.css.map */
