@@ -14,11 +14,4 @@ body {
   max-width: 90rem;
 }
 
-main {
-  display: flex;
-  flex-direction: column;
-  width: 100%;
-  max-width: 90rem;
-}
-
 /*# sourceMappingURL=global.css.map */

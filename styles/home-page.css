@@ -19,6 +19,7 @@
   font-size: 24px;
   line-height: 28px;
   letter-spacing: -1.07px;
+  font-family: "Space Mono", monospace;
 }
 
 .payments article p, .nearest-cities article p, .telemetry article p, .articles-container article p, .hero-banner .introduction-summary p {
