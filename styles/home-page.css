@@ -7,7 +7,7 @@
   letter-spacing: -2.5px;
 }
 
-.nearest-cities article h2, .telemetry article h2 {
+.payments article h2, .nearest-cities article h2, .telemetry article h2 {
   font-family: "Space Mono", monospace;
   font-size: 48px;
   line-height: 48px;
@@ -21,13 +21,13 @@
   letter-spacing: -1.07px;
 }
 
-.nearest-cities article p, .telemetry article p, .articles-container article p, .hero-banner .introduction-summary p {
+.payments article p, .nearest-cities article p, .telemetry article p, .articles-container article p, .hero-banner .introduction-summary p {
   font-family: "Lexend Deca", sans-serif;
   font-size: 15px;
   line-height: 25px;
 }
 
-.nearest-cities article button, .telemetry article button, .hero-banner .introduction-summary button {
+.payments article button, .nearest-cities article button, .telemetry article button, .hero-banner .introduction-summary button {
   background-color: #FCB72B;
   color: #F2F5F9;
   width: 195px;
@@ -35,7 +35,7 @@
   border: none;
 }
 
-.nearest-cities article button:hover, .telemetry article button:hover, .hero-banner .introduction-summary button:hover {
+.payments article button:hover, .nearest-cities article button:hover, .telemetry article button:hover, .hero-banner .introduction-summary button:hover {
   border-color: #FCB72B;
   background-color: #F2F5F9;
   color: #FCB72B;
@@ -55,7 +55,7 @@
 .hero-banner h1 {
   margin-top: 9.8rem;
   margin-left: 10.4rem;
-  width: 500px;
+  width: 31.25rem;
   color: white;
 }
 .hero-banner .introduction-container {
@@ -67,7 +67,7 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
-  width: 400px;
+  width: 25rem;
   margin-left: 3.8rem;
 }
 .hero-banner .introduction-summary p {
@@ -80,15 +80,15 @@
 .hero-banner .flat-arrow {
   background-image: url("../assets/flat_arrow.png");
   background-repeat: no-repeat;
-  width: 200px;
-  height: 10px;
+  width: 12.5rem;
+  height: 0.7rem;
   margin-top: 4%;
 }
 .hero-banner .left-to-right-arrow {
   background-image: url("../assets/left-to-right-arrow.svg");
   background-repeat: no-repeat;
-  width: 450px;
-  height: 140px;
+  width: 28.2rem;
+  height: 8.75rem;
   margin-top: 4.3%;
   margin-left: 2.19rem;
   right: 0;
@@ -96,8 +96,8 @@
 .hero-banner .three-circles {
   background-image: url("../assets/three_circles.png");
   background-repeat: no-repeat;
-  width: 184px;
-  height: 62px;
+  width: 11.5rem;
+  height: 3.9rem;
   margin-top: 9.3%;
   margin-left: 6.6%;
 }
@@ -117,10 +117,10 @@
   margin-bottom: 1rem;
 }
 .thumbnails img {
-  width: 96px;
+  width: 6rem;
   position: relative;
   z-index: 1;
-  padding: 10px;
+  padding: 0.7rem;
   margin: 0 17%;
 }
 
@@ -160,7 +160,7 @@
 .telemetry article {
   display: flex;
   flex-direction: column;
-  width: 445px;
+  width: 27.9rem;
 }
 .telemetry article h2 {
   margin-top: 4rem;
@@ -180,8 +180,8 @@
   position: absolute;
   background-image: url("../assets/right-to-left-arrow.svg");
   background-repeat: no-repeat;
-  width: 733px;
-  height: 150px;
+  width: 45.9rem;
+  height: 9.4rem;
   right: 0;
   bottom: 0;
   z-index: 1;
@@ -189,8 +189,8 @@
 .telemetry .right-circle-quarter {
   background-image: url("../assets/right-circle-quarter.png");
   background-repeat: no-repeat;
-  width: 91px;
-  height: 450px;
+  width: 5.7rem;
+  height: 28.2rem;
   position: absolute;
   right: 0;
   bottom: 0;
@@ -201,13 +201,13 @@
   display: flex;
   position: relative;
   width: 89.2rem;
-  margin-bottom: 31.25rem;
+  margin-bottom: 13rem;
 }
 .nearest-cities article {
   display: flex;
   flex-direction: column;
-  width: 445px;
-  margin-left: 210px;
+  width: 27.9rem;
+  margin-left: 13.2rem;
 }
 .nearest-cities article h2 {
   margin-top: 4rem;
@@ -227,19 +227,70 @@
   position: absolute;
   background-image: url("../assets/left-to-right-small-arrow.png");
   background-repeat: no-repeat;
-  width: 733px;
-  height: 150px;
+  width: 45.9rem;
+  height: 9.4rem;
   left: 0;
   top: 0;
 }
 .nearest-cities .left-circle-quarter {
   background-image: url("../assets/left-circle-quarter.png");
   background-repeat: no-repeat;
-  width: 100px;
-  height: 450px;
+  width: 6.25rem;
+  height: 28.2rem;
   position: absolute;
   left: 0;
   top: 0;
+}
+
+.payments {
+  display: flex;
+  position: relative;
+  width: 79.7rem;
+  margin-bottom: 13rem;
+  margin-left: 9.6rem;
+}
+.payments article {
+  display: flex;
+  flex-direction: column;
+  width: 27.9rem;
+}
+.payments article h2 {
+  margin-top: 4rem;
+  margin-bottom: 1.5rem;
+}
+.payments article p {
+  color: #939CAA;
+}
+.payments article button {
+  margin-top: 2.5rem;
+}
+.payments .payments-picture {
+  width: 27.9rem;
+  margin-left: 14.3rem;
+}
+.payments .payments-picture img {
+  border-radius: 50%;
+}
+.payments .right-to-left-small-arrow {
+  position: absolute;
+  background-image: url("../assets/right-to-left-small-arrow.svg");
+  background-repeat: no-repeat;
+  width: 21.9rem;
+  height: 9.4rem;
+  right: 0;
+  top: 0;
+  margin-top: 4.7rem;
+  z-index: 1;
+}
+.payments .right-circle-quarter {
+  background-image: url("../assets/right-circle-quarter.png");
+  background-repeat: no-repeat;
+  width: 5.7rem;
+  height: 28.2rem;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  z-index: 0;
 }
 
 /*# sourceMappingURL=home-page.css.map */
