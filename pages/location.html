@@ -6,49 +6,55 @@
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="../styles/global.css">
+    <link rel="stylesheet" href="../styles/location.css">
+    <link rel="stylesheet" href="../styles/header.css">
+    <link rel="stylesheet" href="../styles/footer.css">
     <title>Location</title>
 </head>
 <body>
 <header>
-    <div class="first_header_container">
-        <a href="home.html">
+    <nav>
+        <a href="home.html" title="scoot">
             <picture>
                 <img src="../assets/scoot.svg" alt="website_logo">
             </picture>
         </a>
-        <nav>
-            <ul>
-                <li>
-                    <a href="about.html">About</a>
-                </li>
 
-                <li>
-                    <a href="#">Location</a>
-                </li>
+        <ul>
+            <li>
+                <a href="about.html">About</a>
+            </li>
 
-                <li>
-                    <a href="careers.html">Careers</a>
-                </li>
-            </ul>
-            <button>Get Scootin</button>
-        </nav>
-    </div>
-    <div class="secondary_header_part">
-        <h1>Locations</h1>
-    </div>
+            <li>
+                <a href="#">Location</a>
+            </li>
+
+            <li>
+                <a href="careers.html">Careers</a>
+            </li>
+        </ul>
+        <button>Get Scootin</button>
+    </nav>
 </header>
 
 <main>
-    <picture>
-        <img src="../assets/location_map.png" alt="location map">
-    </picture>
 
-    <div class="not_listed">
-        <h2>Your City Not Listed?</h2>
-        <p>If you’d like to see Scoot in your hometown, be sure to let us know. We track requests and plan launches
-            based on demand. Feel free to message us by clicking the link or messaging us on social.</p>
-        <button class="message_us">Message Us</button>
-    </div>
+    <section class="location-hero-banner">
+        <h1>Locations</h1>
+        <img src="../assets/three-circles.svg" alt="three-circles">
+    </section>
+
+    <section class="main-content">
+        <picture class="location-map">
+            <img src="../assets/location-map.svg" alt="location map">
+        </picture>
+        <article class="not-listed">
+            <h2>Your city not listed?</h2>
+            <p>If you’d like to see Scoot in your hometown, be sure to let us know. We track requests and plan launches
+                based on demand. Feel free to message us by clicking the link or messaging us on social.</p>
+            <button class="message-us">Message Us</button>
+        </article>
+    </section>
 </main>
 
 <footer>
@@ -86,7 +92,7 @@
                 </li>
 
                 <li>
-                    <a href="location.html">Location</a>
+                    <a href="#">Location</a>
                 </li>
 
                 <li>

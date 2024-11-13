@@ -25,9 +25,9 @@ header nav button {
 }
 
 header nav button:hover {
-  border-color: #FCB72B;
-  background-color: #F2F5F9;
+  border: 2px solid #FCB72B;
   color: #FCB72B;
+  background-color: #F2F5F9;
   width: 195px;
   height: 53px;
 }

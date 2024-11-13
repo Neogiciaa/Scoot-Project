@@ -12,8 +12,9 @@
 %normal-button:hover {
   @extend %space-mono-body;
   border-color: $button;
-  background-color: $snow;
+  border: 2px solid $button;
   color: $button;
+  background-color: $snow;
   width: 195px;
   height: 53px;
 }
