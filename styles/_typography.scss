@@ -23,6 +23,7 @@ $font-lexend-deca: 'Lexend Deca', sans-serif;
   font-size: 48px;
   line-height: 48px;
   letter-spacing: -1.79px;
+  font-family: $font-space-mono;
 }
 
 %space-mono-h4 {
@@ -30,6 +31,7 @@ $font-lexend-deca: 'Lexend Deca', sans-serif;
   font-size: 24px;
   line-height: 28px;
   letter-spacing: -1.07px;
+  font-family: $font-space-mono;
 }
 
 %lexend-deca-body {
