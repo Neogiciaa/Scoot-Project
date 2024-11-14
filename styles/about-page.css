@@ -129,7 +129,7 @@
   right: 0;
   bottom: 0;
   z-index: 1;
-  margin-bottom: 37px;
+  margin-bottom: 2.4rem;
 }
 .digital-era .right-circle-quarter {
   background-image: url("../assets/right-circle-quarter.png");
@@ -163,7 +163,7 @@
 }
 .urban-living .urban-living-picture {
   width: 27.9rem;
-  margin-left: 165px;
+  margin-left: 10.4rem;
 }
 .urban-living .left-to-right-small-arrow {
   position: absolute;
@@ -231,7 +231,7 @@
   flex-direction: column;
   align-items: center;
   margin: 0 auto;
-  width: 1110px;
+  width: 69.4rem;
 }
 .faq .faq-first-part {
   display: flex;
@@ -242,22 +242,22 @@
   margin-top: 3rem;
 }
 .faq .faq-first-part h3 {
-  width: 350px;
-  height: 48px;
+  width: 21.9rem;
+  height: 3rem;
 }
 .faq .faq-first-part ul {
   display: flex;
   flex-direction: column;
-  width: 730px;
-  gap: 25px;
+  width: 45.7rem;
+  gap: 1.6rem;
 }
 .faq .faq-first-part ul li {
   display: flex;
-  width: 730px;
+  width: 45.7rem;
   background: #F2F5F9;
 }
 .faq .faq-first-part ul li details {
-  width: 730px;
+  width: 45.7rem;
   padding: 1rem;
 }
 .faq .faq-first-part ul li summary {
@@ -284,22 +284,22 @@
   margin-top: 3rem;
 }
 .faq .faq-second-part h3 {
-  width: 350px;
-  height: 48px;
+  width: 21.9rem;
+  height: 3rem;
 }
 .faq .faq-second-part ul {
   display: flex;
   flex-direction: column;
-  width: 730px;
-  gap: 25px;
+  width: 45.7rem;
+  gap: 1.6rem;
 }
 .faq .faq-second-part ul li {
   display: flex;
-  width: 730px;
+  width: 45.7rem;
   background: #F2F5F9;
 }
 .faq .faq-second-part ul li details {
-  width: 730px;
+  width: 45.7rem;
   padding: 1rem;
 }
 .faq .faq-second-part ul li summary {
@@ -320,7 +320,7 @@
 
 .faq summary::after {
   content: url("../assets/downwards_arrow.png");
-  margin-left: 10px;
+  margin-left: 0.7rem;
   transition: transform 0.3s ease;
 }
 

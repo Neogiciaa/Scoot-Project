@@ -71,7 +71,7 @@
     right: 0;
     bottom: 0;
     z-index: 1;
-    margin-bottom: 37px;
+    margin-bottom: 2.4rem;
   }
 
   .right-circle-quarter {
@@ -113,7 +113,7 @@
 
   .urban-living-picture {
     width: 27.9rem;
-    margin-left: 165px;
+    margin-left: 10.4rem;
   }
 
   .left-to-right-small-arrow {
@@ -194,7 +194,7 @@
   flex-direction: column;
   align-items: center;
   margin: 0 auto;
-  width: 1110px;
+  width: 69.4rem;
 
   h2 {
     @extend %space-mono-h1;
@@ -210,23 +210,23 @@
 
     h3 {
       @extend %space-mono-h3;
-      width: 350px;
-      height: 48px;
+      width: 21.9rem;
+      height: 3rem;
     }
 
     ul {
       display: flex;
       flex-direction: column;
-      width: 730px;
-      gap: 25px;
+      width: 45.7rem;
+      gap: 1.6rem;
 
       li {
         display: flex;
-        width: 730px;
+        width: 45.7rem;
         background: $snow;
 
         details {
-          width: 730px;
+          width: 45.7rem;
           padding: 1rem;
         }
 
@@ -262,23 +262,23 @@
 
     h3 {
       @extend %space-mono-h3;
-      width: 350px;
-      height: 48px;
+      width: 21.9rem;
+      height: 3rem;
     }
 
     ul {
       display: flex;
       flex-direction: column;
-      width: 730px;
-      gap: 25px;
+      width: 45.7rem;
+      gap: 1.6rem;
 
       li {
         display: flex;
-        width: 730px;
+        width: 45.7rem;
         background: $snow;
 
         details {
-          width: 730px;
+          width: 45.7rem;
           padding: 1rem;
         }
 
@@ -303,12 +303,11 @@
       }
     }
   }
-
 }
 
 .faq summary::after {
   content: url('../assets/downwards_arrow.png');
-  margin-left: 10px;
+  margin-left: 0.7rem;
   transition: transform 0.3s ease;
 }
 
