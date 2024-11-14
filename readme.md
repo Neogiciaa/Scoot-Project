@@ -1,6 +1,6 @@
 # **Scoot Project**
 
-Here we go again, a new challenge came out and this time i am not alone because it's a duo one !
+Here we go again! A new challenge is out, and this time, i am not alone because it's a duo project !
 
 ## Stack
 
@@ -8,7 +8,7 @@ HTML - SCSS
 
 ## Start project
 
-After cloning this repository, you will need to move inside project folder using:
+After cloning this repository, move inside the project folder using:
 
 ```bash
 cd scoot-project
@@ -16,7 +16,7 @@ cd scoot-project
 
 Then here are three ways to start it:
 
-1. Drag and drop `home.html` file into your web browser
+1. Drag and drop `index.html` file into your web browser
 
 2. For WebStorm users → Click the green play button at the top of the IDE with the `index.html` file open
 
@@ -24,7 +24,7 @@ Then here are three ways to start it:
 
 ### Great news
 
-We're glag to anounce you that we pushed the entire project in Vercel so you can see by yourself our work !
+We're glad to announce that we deployed the entire project on Vercel so you can see our work yourself!
 
 [Discover our site](https://scoot-project.vercel.app/)
 
