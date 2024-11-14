@@ -21,7 +21,6 @@
   font-size: 24px;
   line-height: 28px;
   letter-spacing: -1.07px;
-  font-family: "Space Mono", monospace;
 }
 
 .jobs ul .article-infos p, .join-us .articles-container .article p, .mission article p {
@@ -56,7 +55,6 @@
   font-size: 24px;
   line-height: 28px;
   letter-spacing: -1.07px;
-  font-family: "Space Mono", monospace;
 }
 
 .jobs ul .article-infos p, .join-us .articles-container .article p, .mission article p {
@@ -82,8 +80,9 @@
 
 .jobs ul button:hover, .mission article button:hover {
   border-color: #FCB72B;
-  background-color: #F2F5F9;
+  border: 2px solid #FCB72B;
   color: #FCB72B;
+  background-color: #F2F5F9;
   width: 195px;
   height: 53px;
 }

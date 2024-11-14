@@ -55,7 +55,6 @@
   font-size: 24px;
   line-height: 28px;
   letter-spacing: -1.07px;
-  font-family: "Space Mono", monospace;
 }
 
 .payments article p, .nearest-cities article p, .telemetry article p, .articles-container article p, .hero-banner .introduction-summary p {
@@ -80,6 +79,7 @@
 }
 
 .payments article button:hover, .nearest-cities article button:hover, .telemetry article button:hover, .hero-banner .introduction-summary button:hover {
+  border-color: #FCB72B;
   border: 2px solid #FCB72B;
   color: #FCB72B;
   background-color: #F2F5F9;
@@ -142,8 +142,7 @@
   background-repeat: no-repeat;
   width: 11.5rem;
   height: 3.9rem;
-  margin-top: 9.3%;
-  margin-left: 6.6%;
+  margin: 8rem 0 0 6.2rem;
 }
 
 .getting-started {

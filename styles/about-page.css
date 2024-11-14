@@ -1,0 +1,332 @@
+@import url("https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@400;700&display=swap");
+.faq h2, .our-values h2, .hero-banner h1 {
+  font-family: "Space Mono", monospace;
+  font-size: 56px;
+  line-height: 56px;
+  letter-spacing: -2.5px;
+}
+
+.urban-living article h2, .digital-era article h2 {
+  font-family: "Space Mono", monospace;
+  font-size: 48px;
+  line-height: 48px;
+  letter-spacing: -2.14px;
+}
+
+.faq .faq-second-part h3, .faq .faq-first-part h3 {
+  font-family: "Space Mono", monospace;
+  font-size: 40px;
+  line-height: 40px;
+  letter-spacing: -1.79px;
+}
+
+.faq .faq-second-part ul li summary, .faq .faq-first-part ul li summary, .our-values .articles-container .article h3, .our-values .articles-container .article .article-number {
+  font-family: "Space Mono", monospace;
+  font-size: 24px;
+  line-height: 28px;
+  letter-spacing: -1.07px;
+}
+
+.faq .faq-second-part ul li p, .faq .faq-first-part ul li p, .our-values .articles-container .article p, .urban-living article p, .digital-era article p {
+  font-family: "Lexend Deca", sans-serif;
+  font-size: 15px;
+  line-height: 25px;
+}
+
+.faq h2, .our-values h2, .hero-banner h1 {
+  font-family: "Space Mono", monospace;
+  font-size: 56px;
+  line-height: 56px;
+  letter-spacing: -2.5px;
+}
+
+.urban-living article h2, .digital-era article h2 {
+  font-family: "Space Mono", monospace;
+  font-size: 48px;
+  line-height: 48px;
+  letter-spacing: -2.14px;
+}
+
+.faq .faq-second-part h3, .faq .faq-first-part h3 {
+  font-family: "Space Mono", monospace;
+  font-size: 40px;
+  line-height: 40px;
+  letter-spacing: -1.79px;
+}
+
+.faq .faq-second-part ul li summary, .faq .faq-first-part ul li summary, .our-values .articles-container .article h3, .our-values .articles-container .article .article-number {
+  font-family: "Space Mono", monospace;
+  font-size: 24px;
+  line-height: 28px;
+  letter-spacing: -1.07px;
+}
+
+.faq .faq-second-part ul li p, .faq .faq-first-part ul li p, .our-values .articles-container .article p, .urban-living article p, .digital-era article p {
+  font-family: "Lexend Deca", sans-serif;
+  font-size: 15px;
+  line-height: 25px;
+}
+
+.hero-banner {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 12.5rem;
+  background-image: url("../assets/careers-hero-banner.jpg");
+  background-repeat: no-repeat;
+  margin: 0 auto;
+}
+.hero-banner h1 {
+  margin-left: 10.4rem;
+  width: 14.13rem;
+  color: white;
+}
+.hero-banner .three-circles {
+  background-image: url("../assets/three-circles-demi.svg");
+  background-repeat: no-repeat;
+  width: 15rem;
+  height: 3.9rem;
+  margin-left: 55.1rem;
+}
+
+.digital-era {
+  display: flex;
+  align-items: center;
+  position: relative;
+  width: 80.5rem;
+  margin-top: 8rem;
+  margin-bottom: 8rem;
+  margin-left: 9.6rem;
+}
+.digital-era article {
+  display: flex;
+  flex-direction: column;
+  width: 27.9rem;
+}
+.digital-era article h2 {
+  margin-top: 4rem;
+  margin-bottom: 1.5rem;
+}
+.digital-era article p {
+  color: #939CAA;
+}
+.digital-era .digital-era-picture {
+  width: 27.9rem;
+  margin-left: 14.3rem;
+}
+.digital-era .digital-era-picture img {
+  border-radius: 50%;
+}
+.digital-era .digital-era-arrow {
+  position: absolute;
+  background-image: url("../assets/digital-era-arrow.svg");
+  background-repeat: no-repeat;
+  width: 45rem;
+  height: 9.5rem;
+  right: 0;
+  bottom: 0;
+  z-index: 1;
+  margin-bottom: 37px;
+}
+.digital-era .right-circle-quarter {
+  background-image: url("../assets/right-circle-quarter.png");
+  background-repeat: no-repeat;
+  width: 5.7rem;
+  height: 28.2rem;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  z-index: 0;
+}
+
+.urban-living {
+  display: flex;
+  position: relative;
+  width: 89.2rem;
+  margin-bottom: 13rem;
+}
+.urban-living article {
+  display: flex;
+  flex-direction: column;
+  width: 27.9rem;
+  margin-left: 13.2rem;
+}
+.urban-living article h2 {
+  margin-top: 4rem;
+  margin-bottom: 1.5rem;
+}
+.urban-living article p {
+  color: #939CAA;
+}
+.urban-living .urban-living-picture {
+  width: 27.9rem;
+  margin-left: 165px;
+}
+.urban-living .left-to-right-small-arrow {
+  position: absolute;
+  background-image: url("../assets/left-to-right-small-arrow.png");
+  background-repeat: no-repeat;
+  width: 45.9rem;
+  height: 9.4rem;
+  left: 0;
+  top: 0;
+}
+.urban-living .left-circle-quarter {
+  background-image: url("../assets/left-circle-quarter.png");
+  background-repeat: no-repeat;
+  width: 6.25rem;
+  height: 28.2rem;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+.our-values {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  width: 68.8rem;
+  margin-bottom: 13rem;
+  margin-left: 9.6rem;
+}
+.our-values h2 {
+  margin-left: 10.4rem;
+  width: 27rem;
+}
+.our-values .articles-container {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  margin-top: 3rem;
+  gap: 5rem;
+}
+.our-values .articles-container .article {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.our-values .articles-container .article .article-number {
+  background-color: #FCB72B;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 6rem;
+  height: 6rem;
+  border-radius: 50%;
+  margin-top: -6.25rem;
+}
+.our-values .articles-container .article h3 {
+  margin: 2rem 0;
+}
+.our-values .articles-container .article p {
+  color: #939CAA;
+}
+
+.faq {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 auto;
+  width: 1110px;
+}
+.faq .faq-first-part {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+  margin-bottom: 3rem;
+  margin-top: 3rem;
+}
+.faq .faq-first-part h3 {
+  width: 350px;
+  height: 48px;
+}
+.faq .faq-first-part ul {
+  display: flex;
+  flex-direction: column;
+  width: 730px;
+  gap: 25px;
+}
+.faq .faq-first-part ul li {
+  display: flex;
+  width: 730px;
+  background: #F2F5F9;
+}
+.faq .faq-first-part ul li details {
+  width: 730px;
+  padding: 1rem;
+}
+.faq .faq-first-part ul li summary {
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.5rem;
+  color: #333A44;
+  font-weight: bold;
+  list-style: none;
+}
+.faq .faq-first-part ul li p {
+  color: #333A44;
+  margin-left: 0.65rem;
+  margin-top: 1rem;
+}
+.faq .faq-second-part {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+  margin-bottom: 10rem;
+  margin-top: 3rem;
+}
+.faq .faq-second-part h3 {
+  width: 350px;
+  height: 48px;
+}
+.faq .faq-second-part ul {
+  display: flex;
+  flex-direction: column;
+  width: 730px;
+  gap: 25px;
+}
+.faq .faq-second-part ul li {
+  display: flex;
+  width: 730px;
+  background: #F2F5F9;
+}
+.faq .faq-second-part ul li details {
+  width: 730px;
+  padding: 1rem;
+}
+.faq .faq-second-part ul li summary {
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.5rem;
+  color: #333A44;
+  font-weight: bold;
+  list-style: none;
+}
+.faq .faq-second-part ul li p {
+  color: #333A44;
+  margin-left: 0.65rem;
+  margin-top: 1rem;
+}
+
+.faq summary::after {
+  content: url("../assets/downwards_arrow.png");
+  margin-left: 10px;
+  transition: transform 0.3s ease;
+}
+
+.faq details[open] summary::after {
+  content: url("../assets/upwards_arrow.png");
+  transform: rotate(360deg);
+}
+
+/*# sourceMappingURL=about-page.css.map */
