@@ -26,6 +26,7 @@ Then here are three ways to start it:
 
 We're glag to anounce you that we pushed the entire project in Vercel so you can see by yourself our work !
 
+[Discover our site](https://scoot-project.vercel.app/)
 
 
 ### Authors
